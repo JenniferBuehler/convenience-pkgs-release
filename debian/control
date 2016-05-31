@@ -1,0 +1,12 @@
+Source: ros-indigo-convenience-math-functions
+Section: misc
+Priority: extra
+Maintainer: Jennifer Buehler <jennifer.e.buehler@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-eigen-conversions
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-convenience-math-functions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-eigen-conversions
+Description: Provides a few convenience math functions using the Eigen libraries.
