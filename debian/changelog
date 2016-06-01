@@ -1,0 +1,20 @@
+ros-indigo-convenience-math-functions (0.0.3-1trusty) trusty; urgency=high
+
+  * Contributors: Jennifer Buehler
+
+ -- Jennifer Buehler <jennifer.e.buehler@gmail.com>  Tue, 31 May 2016 22:00:00 -0000
+
+ros-indigo-convenience-math-functions (0.0.2-1trusty) trusty; urgency=high
+
+
+
+ -- Jennifer Buehler <jennifer.e.buehler@gmail.com>  Mon, 30 May 2016 22:00:00 -0000
+
+ros-indigo-convenience-math-functions (0.0.1-1trusty) trusty; urgency=high
+
+  * Released initial version on ROS.
+  * Contributors: Jennifer Buehler
+
+ -- Jennifer Buehler <jennifer.e.buehler@gmail.com>  Sun, 29 May 2016 22:00:00 -0000
+
+
