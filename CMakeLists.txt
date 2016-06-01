@@ -18,15 +18,20 @@ project(baselib_binding)
 # it seems that CATKIN_DEVEL_PREFIX is not set.
 # So set ENFORCE_CATKIN to true only for the commits
 # to jenkins.
-set (ENFORCE_CATKIN false)
+set (ENFORCE_CATKIN true)
    
 # Private flag: compiling with catkin is prioritized by default.
 # This flag will be set to false if CATKIN_DEVEL_PREFIX
 # is empty/not defined, **and** ENFORCE_CATKIN is false.
 set (COMPILE_WITH_CATKIN true)
 
+if (ENFORCE_CATKIN)
+    message(STATUS "Enforcing compilation with catkin")
+endif (ENFORCE_CATKIN)
+
+
 if (NOT ENFORCE_CATKIN AND NOT CATKIN_DEVEL_PREFIX)
-    message(STATUS "Compiling grasp_planning_graspit: CATKIN_DEVEL_PREFIX is not defined, so **enforcing compilation with cmake**.")
+    message(STATUS "Compiling baselib_binding: CATKIN_DEVEL_PREFIX is not defined, so **enforcing compilation with cmake**.")
     set (COMPILE_WITH_CATKIN false)
 endif (NOT ENFORCE_CATKIN AND NOT CATKIN_DEVEL_PREFIX)
 
