@@ -1,5 +1,10 @@
-# convenience-pkgs
+# convenience_ros_functions
 
-Collection of tools generally useful for testing and developing various other ROS packages.
 
-See also [the wiki page](https://github.com/JenniferBuehler/convenience-pkgs/wiki/) for more information.
+Collection of convenience functions for using in ROS packages.
+
+Note:
+
+Depending catkin packages need to add compiler definitions:
+
+``add_definitions(${convenience_ros_functions_DEFINITIONS})
