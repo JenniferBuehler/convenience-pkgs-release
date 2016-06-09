@@ -2,6 +2,9 @@
 Changelog for package baselib_binding
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.0 (2016-06-09)
+------------------
+
 0.0.3 (2016-06-01)
 ------------------
 * Temproray change for jenkins build (enforce catkin)
