@@ -1,0 +1,12 @@
+Source: ros-indigo-arm-components-name-manager
+Section: misc
+Priority: extra
+Maintainer: Jennifer Buehler <jennifer.e.buehler@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-baselib-binding, ros-indigo-catkin, ros-indigo-convenience-math-functions, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-arm-components-name-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-baselib-binding, ros-indigo-convenience-math-functions, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Description: Can be used to configure robot arm component names and access them conveniently from within the source code
